@@ -1,0 +1,952 @@
+<!doctype html>
+<!-- Name: Ghazaleh Ahmadi
+    Class: 1ACS02
+    R-number: R0928371
+     -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Car Listings</title>
+    <meta content="Ghazaleh Ahmadi" name="author"/>
+    <link rel="icon" type="image/png" href="../NitroDrive%20Favicon.svg">
+    <link href="/2025-FullStack-FrontEnd-ACS-207/student2/css/student2.css" rel="stylesheet"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="/2025-FullStack-FrontEnd-ACS-207/common/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+
+    </section>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a href="../index.html"><img src="../NitroDrive%20Logo.svg" alt="NitroDrive Logo" height="40" class="me-2"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../student2/student2page1.html">Cars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../student1/student1page1.html">Maintenance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../student2/student2page2.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../student1/student1page2.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../student4/student4page2.html">Appointment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../student4/student4page1.html">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <header class="header-section">
+        <section class="hero">
+
+            <img alt="Car Collection" src="header.jpg">
+            <div class="overlay-text">
+                <h1>Discover Your Next Dream Car</h1>
+                <p>Explore Our Car Collection: Mercedes-Benz, Ford, Chevrolet, Rolls-Royce, and more</p>
+                <a class="btn btn-primary btn-lg" href="#cars">Collection</a>
+            </div>
+
+</header>
+
+<article>
+    <main class="container">
+        <div class="row cars" id="cars">
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="card ">
+                    <a href="#mercedes-benz">
+                        <img alt="Mercedes-Benz" class="card-img" src="mercedes-benz.jpg">
+                        <div class="overlay-text">Mercedes-Benz</div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="card">
+                    <a class="card-container" href="#ford">
+                        <img alt="Ford" class="card-img-top" src="ford.jpg">
+                        <div class="overlay-text">Ford</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="card ">
+                    <a class="card-container" href="#chevrolet">
+                        <img alt="Chevrolet" class="card-img-top" src="Chevrolet.jpg">
+                        <div class="overlay-text">Chevrolet</div>
+                    </a>
+
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="card">
+                    <a class="card-container" href="#rolls-royce">
+                        <img alt="Rolls-Royce" class="card-img-top" src="rolls.jpg">
+                        <div class="overlay-text">Rolls-Royce</div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="card">
+                    <a class="card-container" href="#lamborghini">
+                        <img alt="lamborghini" class="card-img-top" src="Lamborghini.jpg">
+                        <div class="overlay-text">Lamborghini</div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="card">
+                    <a class="card-container" href="#jeep">
+                        <img alt="jeep" class="card-img-top" src="jeep.jpg">
+                        <div class="overlay-text">Jeep</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <section class="container text-center">
+            <h1 class="text-primary">Car Listings</h1>
+            <h2 class="text-light">Ready to find your perfect ride?</h2>
+            <p class="text-secondary">
+                At <span class="text-primary">NitroDrive</span>, we offer a diverse range of vehicles, each
+                with its own unique features and capabilities.
+                Whether you're seeking a car for everyday use, adventure, or performance, we have something to match
+                your needs.
+                Simply click on any car brand below to view detailed information, features, and availability.
+            </p>
+            <h4 class="text-primary">Let’s get you behind the wheel of your dream car today!</h4>
+        </section>
+
+
+        <section class="mb-5" id="mercedes-benz">
+            <div class="container">
+                <div>
+                    <h2 class="text-center mb-4">Mercedes-Benz</h2>
+                    <p class="text-center mb-4">Discover luxury and performance with Mercedes-Benz. From sleek
+                        sedans to
+                        powerful SUVs, every vehicle is a testament to precision engineering and innovative
+                        design.</p></div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Mercedes-Benz S-Class" class="card-img-top" src="1_Mercedes-Benz-S-Class.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Mercedes-Benz S-Class</h4>
+                                <p class="card-text">Price: $110,000</p>
+
+                                <button class="btn btn-dark" data-bs-target="#mercedes1"
+                                        data-bs-toggle="collapse"
+                                        type="button">
+                                    View Details
+                                </button>
+
+                                <div class="collapse mt-3" id="mercedes1">
+                                    <h5>Features</h5>
+                                    <ul>
+                                        <li>Luxury interior</li>
+                                        <li>Advanced driver assistance systems</li>
+                                        <li>superb comfort</li>
+
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>4.0L V8 Biturbo</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>496 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0-60 mph</th>
+                                            <td>4.1 seconds</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Model 2 Card - AMG GT -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Mercedes-Benz AMG GT" class="card-img-top" src="2_Mercedes-Benz-AMG_GT.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Mercedes-Benz AMG GT</h4>
+                                <p class="card-text">Price: $120,000</p>
+                                <button class="btn btn-dark" data-bs-target="#mercedes2"
+                                        data-bs-toggle="collapse"
+                                        type="button">
+                                    View Details
+                                </button>
+                                <div class="collapse mt-3" id="mercedes2">
+                                    <h5>Features</h5>
+                                    <ul>
+                                        <li>Stunning design</li>
+                                        <li>Aggressive performance</li>
+                                        <li>advanced suspension system</li>
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>4.0L V8 Biturbo</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>523 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0-60 mph</th>
+                                            <td>3.9 seconds</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Model 3 Card - G-Wagon -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Mercedes-Benz G-Wagon" class="card-img-top" src="3-Mercedes-Benz-G-Wagon.jpg"
+                            >
+                            <div class="card-body">
+                                <h4 class="card-title">Mercedes-Benz G-Wagon</h4>
+                                <p class="card-text">Price: $135,000</p>
+                                <button class="btn btn-dark" data-bs-target="#mercedes3"
+                                        data-bs-toggle="collapse"
+                                        type="button">
+                                    View Details
+                                </button>
+                                <div class="collapse mt-3" id="mercedes3">
+                                    <h5>Features</h5>
+                                    <ul>
+                                        <li>Rugged off-road performance</li>
+                                        <li>luxurious cabin</li>
+                                        <li>iconic design</li>
+
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>4.0L V8 Biturbo</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>416 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0-60 mph</th>
+                                            <td>5.6 seconds</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Ford Section -->
+        <section class="mb-5" id="ford">
+            <div class="container">
+                <div>
+                    <h2 class="text-center mb-4">Ford</h2>
+                    <p class="text-center mb-4">Drive with confidence and reliability. Ford delivers a wide range of
+                        vehicles, from rugged trucks to efficient cars, built to handle any adventure with ease.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Ford Mustang GT" class="card-img-top" src="4-Ford-Mustang-GT.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Ford Mustang GT</h4>
+                                <p class="card-text">Price: $43,000</p>
+                                <button class="btn btn-dark" data-bs-target="#ford1" data-bs-toggle="collapse"
+                                        type="button">
+                                    View Details
+                                </button>
+
+
+                                <div class="collapse mt-3" id="ford1">
+                                    <h5>Features</h5>
+                                    <ul>
+                                        <li>Classic muscle car</li>
+                                        <li>Aggressive design</li>
+                                        <li>Sporty handling</li>
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>5.0L V8</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>450 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0-60 mph</th>
+                                            <td>4.2 seconds</td>
+                                        </tr>
+
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Ford F-150 Raptor" class="card-img-top" src="5-Ford%20F-150.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Ford F-150 Raptor</h4>
+                                <p class="card-text">Price: $55,000</p>
+                                <button class="btn btn-dark" data-bs-target="#ford2" data-bs-toggle="collapse"
+                                        type="button">
+                                    View Details
+                                </button>
+                                <div class="collapse mt-3" id="ford2">
+                                    <h5>Features</h5>
+                                    <ul>
+                                        <li>Off-road performance</li>
+                                        <li>High towing capacity</li>
+                                        <li>Rugged design</li>
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>3.5L EcoBoost V6</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>450 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0-60 mph</th>
+                                            <td>5.1 seconds</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Ford GT" class="card-img-top" src="6-Ford%20Gt.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Ford GT</h4>
+                                <p class="card-text">Price: $500,000</p>
+                                <button class="btn btn-dark" data-bs-target="#ford3" data-bs-toggle="collapse"
+                                        type="button">
+                                    View Details
+                                </button>
+                                <div class="collapse mt-3" id="ford3">
+                                    <h5>Features</h5>
+                                    <ul>
+                                        <li>Supercar performance</li>
+                                        <li>Lightweight design</li>
+                                        <li>Advanced aerodynamics</li>
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>3.5L EcoBoost V6</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>660 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0-60 mph</th>
+                                            <td>3.0 seconds</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5" id="chevrolet">
+            <div class="container">
+                <div>
+                    <h2 class="text-center mb-4">Chevrolet</h2>
+                    <p class="text-center mb-4">Experience the power, style, and innovation of Chevrolet. From
+                        muscle cars to
+                        rugged trucks, Chevrolet delivers performance with a bold presence.</p></div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Chevrolet Camaro ZL1" class="card-img-top" src="chevrolet1.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Chevrolet Camaro ZL1</h4>
+                                <p class="card-text">Price: $70,000</p>
+                                <button class="btn btn-dark" data-bs-target="#chevrolet1" data-bs-toggle="collapse"
+                                        type="button">
+                                    View Details
+                                </button>
+                                <div class="collapse mt-3" id="chevrolet1">
+                                    <h5>Features</h5>
+                                    <ul>
+                                        <li>Track-ready performance</li>
+                                        <li>Aggressive styling</li>
+                                        <li>Advanced
+                                            aerodynamics
+                                        </li>
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>6.2L Supercharged V8</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>650 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0-60 mph</th>
+                                            <td>3.5 seconds</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Chevrolet Silverado 1500" class="card-img-top" src="chevrolet3.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Chevrolet Silverado 1500</h4>
+                                <p class="card-text">Price: $45,000</p>
+                                <button class="btn btn-dark" data-bs-target="#chevrolet2" data-bs-toggle="collapse"
+                                        type="button">
+                                    View Details
+                                </button>
+                                <div class="collapse mt-3" id="chevrolet2">
+                                    <h5>Features</h5>
+                                    <ul>
+                                        <li>Advanced trailering tech</li>
+                                        <li>Rugged durability</li>
+                                        <li>Spacious interior</li>
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>6.2L V8</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>420 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Towing Capacity</th>
+                                            <td>13,300 lbs</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Chevrolet Corvette Z06" class="card-img-top" src="chevrolet2.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Chevrolet Corvette Z06</h4>
+                                <p class="card-text">Price: $110,000</p>
+                                <button class="btn btn-dark" data-bs-target="#chevrolet3" data-bs-toggle="collapse"
+                                        type="button">
+                                    View Details
+                                </button>
+                                <div class="collapse mt-3" id="chevrolet3">
+                                    <h5>Features</h5>
+                                    <ul>
+                                        <li>Mid-engine layout</li>
+                                        <li>Precision handling</li>
+                                        <li>Race-inspired
+                                            performance
+                                        </li>
+
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>5.5L V8 Flat-Plane Crank</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>670 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0-60 mph</th>
+                                            <td>2.6 seconds</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="mb-5" id="rolls-royce">
+            <div class="container">
+                <div><h2 class="text-center mb-4">Rolls-Royce</h2>
+                    <p class="text-center mb-4">Indulge in unparalleled luxury with Rolls-Royce. Known for its
+                        exceptional craftsmanship and timeless elegance, each model offers an experience like no
+                        other.</p></div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Rolls-Royce Phantom" class="card-img-top" src="rollsroyce1.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Rolls-Royce Phantom</h4>
+                                <p class="card-text">Price: $450,000</p>
+                                <button class="btn btn-dark" data-bs-target="#rollsroyce1"
+                                        data-bs-toggle="collapse"
+                                        type="button">
+                                    View Details
+                                </button>
+                                <div class="collapse mt-3" id="rollsroyce1">
+                                    <h5>Features</h5>
+                                    <ul>
+                                        <li>Handcrafted interior</li>
+                                        <li>Exceptional luxury</li>
+                                        <li>Quiet ride<</li>
+
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>6.75L V12</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>563 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0-60 mph</th>
+                                            <td>5.1 seconds</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Rolls-Royce Ghost" class="card-img-top" src="rollsroyce3.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Rolls-Royce Ghost</h4>
+                                <p class="card-text">Price: $343,000</p>
+                                <button class="btn btn-dark" data-bs-target="#rollsroyce3"
+                                        data-bs-toggle="collapse"
+                                        type="button">
+                                    View Details
+                                </button>
+                                <div class="collapse mt-3" id="rollsroyce3">
+                                    <h5>Features </h5>
+                                    <ul>
+                                        <li>Understated luxury</li>
+                                        <li>Advanced suspension</li>
+                                        <li>Whisper-quiet cabin</li>
+
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>6.75L Twin-Turbo V12</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>563 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0-60 mph</th>
+                                            <td>4.6 seconds</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Rolls-Royce Wraith" class="card-img-top" src="rollsroyce2.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Rolls-Royce Wraith</h4>
+                                <p class="card-text">Price: $343,350</p>
+                                <button class="btn btn-dark" data-bs-target="#rollsroyce2"
+                                        data-bs-toggle="collapse"
+                                        type="button">
+                                    View Details
+                                </button>
+                                <div class="collapse mt-3" id="rollsroyce2">
+                                    <h5>Features</h5>
+                                    <ul>
+                                        <li>Grand tourer design</li>
+                                        <li>Advanced infotainment</li>
+                                        <li>Plush interior</li>
+
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>6.6L V12</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>624 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0-60 mph</th>
+                                            <td>4.4 seconds</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- --->
+        <section class="mb-5" id="lamborghini">
+            <div class="container">
+                <div><h2 class="text-center mb-4">Lamborghini</h2>
+                    <p class="text-center mb-4">Lamborghini is the pinnacle of speed and luxury. With
+                        cutting-edge aerodynamics and breathtaking performance, these supercars redefine
+                        automotive excellence.</p></div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Lamborghini Aventador" class="card-img-top" src="Lamborghini1.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Lamborghini Aventador</h4>
+                                <p class="card-text">Price: $507,000</p>
+                                <button class="btn btn-dark" data-bs-target="#lamborghini1"
+                                        data-bs-toggle="collapse"
+                                        type="button">
+                                    View Details
+                                </button>
+                                <div class="collapse mt-3" id="lamborghini1">
+                                    <h5>Features</h5>
+                                    <ul>
+                                        <li>Iconic scissor doors</li>
+                                        <li>Aggressive aerodynamics</li>
+                                        <li>Track-ready performance</li>
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>6.5L Naturally Aspirated V12</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>769 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0-60 mph</th>
+                                            <td>2.8 seconds</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Lamborghini Huracán EVO" class="card-img-top" src="Lamborghini2.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Lamborghini Huracán EVO</h4>
+                                <p class="card-text">Price: $250,000</p>
+                                <button class="btn btn-dark" data-bs-target="#lamborghini2"
+                                        data-bs-toggle="collapse"
+                                        type="button">
+                                    View Details
+                                </button>
+                                <div class="collapse mt-3" id="lamborghini2">
+                                    <h5>Features</h5>
+                                    <ul>
+                                        <li>Aerodynamic design</li>
+                                        <li>Advanced driving dynamics</li>
+                                        <li>Premium interior</li>
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>5.2L V10</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>631 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0-60 mph</th>
+                                            <td>2.9 seconds</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Lamborghini Aventador SVJ" class="card-img-top" src="Lamborghini3.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Lamborghini Aventador SVJ</h4>
+                                <p class="card-text">Price: $517,000</p>
+                                <button class="btn btn-dark" data-bs-target="#lamborghini3"
+                                        data-bs-toggle="collapse"
+                                        type="button">
+                                    View Details
+                                </button>
+                                <div class="collapse mt-3" id="lamborghini3">
+                                    <h5>Features</h5>
+                                    <ul>
+                                        <li>Carbon fiber body,</li>
+                                        <li>Track-focused performance</li>
+                                        <li>Active aerodynamics</li>
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>6.5L V12</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>770 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0-60 mph</th>
+                                            <td>2.8 seconds</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="mb-5" id="jeep">
+            <div class="container">
+                <div><h2 class="text-center mb-4">Jeep</h2>
+                    <p class="text-center mb-4">Jeep vehicles are built for adventure. With legendary
+                        off-road capabilities and rugged design, they offer the perfect blend of
+                        performance and durability.</p></div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Jeep Wrangler Rubicon" class="card-img-top" src="jeep1.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Jeep Wrangler Rubicon</h4>
+                                <p class="card-text">Price: $52,000</p>
+                                <button class="btn btn-dark" data-bs-target="#jeep1" data-bs-toggle="collapse"
+                                        type="button">
+                                    View Details
+                                </button>
+
+                                <div class="collapse mt-3" id="jeep1">
+                                    <h5>Features</h5>
+                                    <ul>
+                                        <li>Off-road capability</li>
+                                        <li>Removable roof</li>
+                                        <li>Rugged design</li>
+
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>3.6L V6</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>285 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0-60 mph</th>
+                                            <td>6.8 seconds</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Jeep Grand Cherokee" class="card-img-top" src="jeep2.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Jeep Grand Cherokee</h4>
+                                <p class="card-text">Price: $45,000</p>
+                                <button class="btn btn-dark" data-bs-target="#jeep2" data-bs-toggle="collapse"
+                                        type="button">View Details
+                                </button>
+                                <div class="collapse mt-3" id="jeep2">
+                                    <h5>Features </h5>
+                                    <ul>
+                                        <li>Spacious interior</li>
+                                        <li> Advanced safety tech</li>
+                                        <li> luxury trim options</li>
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>3.6L V6</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>293 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0-60 mph</th>
+                                            <td>7.4 seconds</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img alt="Jeep Gladiator" class="card-img-top" src="jeep3.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Jeep Gladiator</h4>
+                                <p class="card-text">Price: $38,000</p>
+                                <button class="btn btn-dark" data-bs-target="#jeep3" data-bs-toggle="collapse"
+                                        type="button">
+                                    View Details
+                                </button>
+                                <div class="collapse mt-3" id="jeep3">
+                                    <h5>Features</h5>
+                                    <ul>
+                                        <li>Pickup truck utility</li>
+                                        <li>Off-road capability</li>
+                                        <li> Removable doors</li>
+
+                                    </ul>
+                                    <table class="table table-dark table-bordered">
+                                        <tr>
+                                            <th>Engine</th>
+                                            <td>3.6L V6</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Horsepower</th>
+                                            <td>285 hp</td>
+                                        </tr>
+                                        <tr>
+                                            <th>0-60 mph</th>
+                                            <td>7.6 seconds</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="bg-light text-center p-4">
+            <form action="#" class="" method="POST">
+
+                <label class="form-label fw-semibold" for="requestingcar">Looking for a Specific Car?</label>
+                <input class="form-control mb-2" id="requestingcar" name="requesting"
+                       placeholder="Enter car model" type="text">
+
+
+                <label class="form-label fw-semibold" for="details">Don’t hesitate to let us know any additional
+                    Details:</label>
+                <textarea class="form-control mb-2" id="details" name="details"
+                          placeholder="Additional details you'd like us to know"
+                          rows="3"></textarea>
+
+                <button class="btn btn-primary" type="submit">Submit Request</button>
+            </form>
+        </section>
+
+        <!-- Alert -->
+        <div class="alert alert-warning mt-4" role="alert">
+            Limited-time offers available! Contact us now.
+        </div>
+
+    </main>
+</article>
+<!-- -->
+
+
+<footer class="footer">
+    <img alt="NitroDrive Logo" class="me-2" height="40" src="../NitroDrive%20Logo.svg">
+
+    <!-- Navigation Links -->
+    <div class="nav-links mt-3">
+        <a href="/2025-FullStack-FrontEnd-ACS-207/student2/student2page1.html">Cars</a>
+        <a href="/2025-FullStack-FrontEnd-ACS-207/student1/student1page1.html">Maintenance</a>
+        <a href="/2025-FullStack-FrontEnd-ACS-207/student2/student2page2.html">About</a>
+        <a href="/2025-FullStack-FrontEnd-ACS-207/student1/student1page2.html">Contact</a>
+        <a href="#">Appointment</a>
+        <a href="#">Feedback</a>
+    </div>
+
+    <!-- Social Media Icons -->
+    <div class="social-icons mt-4">
+        <a class="social-link" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a class="social-link" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a class="social-link" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a class="social-link" href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a class="social-link" href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <p class="footer-text mt-4">
+        &copy; 2025<a href="https://www.thomasmore.be/"> Thomas More</a> All rights reserved | Designed by <a
+            href="https://github.com/ghazaeleh/"> <i class="fa-brands fa-github"></i> Ghazaleh Ahmadi</a>. <br>
+        This is a Fictional Website
+    </p>
+</footer>
+<script src="/2025-FullStack-FrontEnd-ACS-207/common/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

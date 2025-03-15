@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+
+    --primary-color: #4CBE85;
+    --secondary-color: #000;
+    --success-color: #28a745;
+    --warning-color: red;
+    --font-family: 'Montserrat', sans-serif;
+    --foreground-color: #1E2129;
+    --background-color: #111214;
+    --text-100: #F3F3F3;
+    --text-70: #B8B8B8;
+    --text-50: #888889;
+    --border-10: #292A2C;
+    --border-radius: 20px;
+    --bg-color: #fff;
+    --card-width: 400px;
+    --font-size-normal: 16px;
+    --font-size-big: 24px;
+
+}
+
+body {
+    background-color: var(--background-color) !important;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: var(--foreground-color);
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--primary-color);
+}
+
+.navbar-toggler-icon {
+    filter: invert(80%);
+}
+
+.btn.btn-primary {
+    background-color: darkred;
+    color: var(--text-100);
+    border: none;
+}
+
+.btn.btn-primary:hover:visited {
+    background-color: black;
+}
+
+
+/* Footer ---------------------------------------*/
+
+.footer {
+    background-color: var(--foreground-color);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.footer h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.footer .nav-links a {
+    color: var(--text-100);
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer .nav-links a:hover {
+    color: var(--primary-color);
+}
+
+.footer-text {
+    font-size: 14px;
+    margin-top: 20px;
+    color: var(--text-100);
+}
+
+.footer-text a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-icons .social-link {
+    color: var(--primary-color);
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons .social-link:hover {
+    color: var(--text-100);
+
+}
+
+/**/
+.cars + section {
+    background-color: rgba(0, 0, 0, 0.4); /* Light white layer */
+    padding: 40px;
+    border-radius: 10px;
+
+    p {
+        font-size: var(--font-size-big);
+    }
+}
+
+.container > section > .container > div:first-child {
+    background-color: var(--secondary-color);
+    color: var(--text-100);
+    padding: 16px;
+    font-size: 1.2rem;
+}
+
+.container > section > .container > div:first-child h2 {
+    color: #ae0101;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+header {
+    .hero {
+        position: relative;
+        width: 100%;
+
+        img {
+            width: 100%; /* Makes sure the image stretches across the container */
+            height: auto;
+        }
+
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            z-index: 2;
+        }
+    }
+
+    .hero::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* Dark overlay with opacity */
+        z-index: 1; /* Overlay stays below the text */
+    }
+
+
+}
+
+.cars {
+    .card {
+        max-width: var(--card-width);
+        background-color: black;
+        flex-direction: column;
+        object-fit: cover;
+        transition: transform 0.3s ease-in-out;
+        border-radius: var(--border-radius);
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-align: center;
+    }
+
+    .card:hover {
+        transform: scale(1.1); /* Slightly increase card size */
+        box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Add a shadow */
+    }
+}
+
+.btn-dark {
+    &::before {
+        content: "★ ";
+    }
+}
+
+
+/* about us */
+.profile-card {
+    --bg-color: var(--secondary-color);
+    text-align: center;
+
+    figure img {
+        object-fit: cover;
+        width: 150px;
+        border-radius: 100%;
+        overflow: hidden;
+    }
+
+    figcaption {
+        color: var(--primary-color);
+        font-size: var(--secondary-title-size);
+        @media screen and (min-width: 768px) {
+            --primary-color: #6363fd;
+        }
+    }
+}
+
+
+header .second {
+    background-color: rgba(0, 0, 66, 0.5);
+    color: var(--text-100);
+}
+
+.second {
+    font-size: var(--font-size-normal);
+    color: var(--text-100);
+
+    div div:nth-child(even) {
+    }
+
+    .form-check {
+        --primary-color: rgba(81, 0, 0, 0.5);
+        background-color: var(--primary-color);
+    }
+
+    .btn.btn-primary {
+        width: 100px;
+        margin-top: 10px;
+    }
+}
